@@ -18,11 +18,11 @@ def split_digits(number):
 
 # compare_numbers compares the two numbers to find the correct number of black and white markers
 def compare_numbers(random_number, user_input):
-    numberOfDigitsRN = [0,0,0,0,0,0,0,0,0,0] # this list will save the frequency of occuring digits in random_number (the RN in numberOfDigitsRN stands for random number)
+    numberOfDigitsRN = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] # this list will save the frequency of occuring digits in random_number (the RN in numberOfDigitsRN stands for random number)
     for i in range(4):
         numberOfDigitsRN[random_number[i]]+=1 # for every digit that is in random_number, the corresponding list index will go up by 1 --- e.g.: if random_number = [8, 8, 1, 2] then NumberOfDigitsRN = [0, 1, 1, 0, 0, 0, 0, 0, 2, 0]
         
-    numberOfDigitsUI = [0,0,0,0,0,0,0,0,0,0] # see above (The UI in numberOfDigitsUI stands for user input)
+    numberOfDigitsUI = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0] # see above (The UI in numberOfDigitsUI stands for user input)
     for i in range(4):
         numberOfDigitsUI[user_input[i]]+=1 # see above
         
