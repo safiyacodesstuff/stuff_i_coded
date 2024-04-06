@@ -51,7 +51,7 @@ guess = get_next_guess()
 counter = 1
 user_input = split_digits(guess)
 
-if random_number == guess:
+if secret_number == guess:
     print("Congratulations, you guessed it! And on your first guess too! That's very impressive!")
     print("You definitely are a Mastermind!")
     
